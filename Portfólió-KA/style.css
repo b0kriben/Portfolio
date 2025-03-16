@@ -1,0 +1,141 @@
+/* Általános beállítások */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Fejléc */
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 40px 0;
+}
+
+header h1 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+header h3 {
+    margin-left: 40px;
+}
+
+header p {
+    font-size: 1.25rem;
+    font-weight: 300;
+    margin-left: 80px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+/* Rólam szekció */
+.about {
+    background-color: #ffffff;
+    padding: 40px 0;
+}
+
+.about p {
+    font-size: 1.125rem;
+    line-height: 1.6;
+    text-align: center;
+}
+
+/* Projektek szekció */
+.projects {
+    background-color: #f9f9f9;
+    padding: 60px 0;
+}
+
+.projects h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+.card {
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card img {
+    border-radius: 8px;
+    object-fit: cover;
+    height: 200px;
+    width: 100%;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.card-text {
+    color: #555;
+}
+
+/* Kapcsolat szekció */
+.contact {
+    background-color: #ffffff;
+    padding: 40px 0;
+}
+
+.contact p {
+    font-size: 1.125rem;
+    line-height: 1.6;
+}
+
+/* Lábléc */
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+}
+
+/* Reszponzív beállítások */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2.5rem;
+    }
+
+    header p {
+        font-size: 1.1rem;
+    }
+
+    .projects h2 {
+        font-size: 2rem;
+    }
+
+    .card-body {
+        padding: 15px;
+    }
+}
+
+
+/*body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+}*/
+
