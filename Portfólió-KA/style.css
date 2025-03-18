@@ -8,7 +8,7 @@ body {
 
 /* Fejléc */
 header {
-    background-color: #007bff;
+    background-color: rgb(140, 0, 140);
     color: white;
     padding: 40px 0;
 }
